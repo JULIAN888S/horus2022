@@ -1,0 +1,22 @@
+:root{
+    --color0:#000000;
+    --color1:#1E6075;
+    --color2:#2DA89C;
+    --color3:#2DEBAE;
+    --color4:#FCFDFF;
+    --color5:#F0F0F7;
+    --color6:#BABABF;
+}
+
+.OurClients{
+    height: 40vh;
+    text-align: center;
+    background-color: var(--color5);
+}
+
+.OurClients img{
+    align-items: center;
+    height: 75%;
+    margin: 0px auto;
+    width: auto;
+}

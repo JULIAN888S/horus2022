@@ -1,0 +1,76 @@
+*:root{
+    --color0:#000000;
+    --color1:#1E6075;
+    --color2:#2DA89C;
+    --color3:#2DEBAE;
+    --color4:#FCFDFF;
+    --color5:#F0F0F7;
+    --color6:#BABABF;
+}
+
+.service-container div{
+    text-align: center;
+}
+.service-container{
+    width: 85vw;
+    height: 60vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin: 8%  auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px ;
+    background-color: var(--color4);
+    box-shadow: 10px 20px 40px var(--color6);
+}
+
+.image-service{
+    height: 80%;
+    width: auto;
+    border-radius: 8px;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.text-container-service{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    line-height: 1.4rem;
+}
+
+@media(max-width:500px){
+    .service-container div{
+        text-align: center;
+    }
+    .service-container{
+        height: 80vh;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: var(--color4);
+        box-shadow: 10px 20px 40px var(--color6);
+    }
+    
+    .image-service{
+        min-height: 200px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .text-container-service{
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+        padding: 10px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+        line-height: 1.4rem;
+    }
+}

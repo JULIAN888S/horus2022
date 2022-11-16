@@ -1,0 +1,23 @@
+*:root{
+    --color0:#000000;
+    --color1:#1E6075;
+    --color2:#2DA89C;
+    --color3:#2DEBAE;
+    --color4:#FCFDFF;
+    --color5:#F0F0F7;
+    --color6:#BABABF;
+}
+
+body footer{
+    height: 30vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--color0);
+    color: var(--color5);
+    text-align: center;
+    display: flex;
+    justify-content: center;  
+}
+
+footer ul{
+    margin-top: 5%;
+}

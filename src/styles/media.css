@@ -1,0 +1,37 @@
+*:root{
+    --color0:#000000;
+    --color1:#1E6075;
+    --color2:#2DA89C;
+    --color3:#2DEBAE;
+    --color4:#FCFDFF;
+    --color5:#F0F0F7;
+    --color6:#BABABF;
+}
+
+.media-player{
+    width: 50vw;
+    height: 60vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin: 8%  auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px ;
+    background-color: var(--color4);
+    box-shadow: 10px 20px 40px var(--color6);
+}
+
+.media-player .react-player{
+    margin-right: 4%;   
+    width: 100px;
+}
+
+.media-player-service{
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    line-height: 1.4rem;
+}

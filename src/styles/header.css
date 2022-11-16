@@ -1,0 +1,34 @@
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background: var(--color0);
+}
+
+.slider{
+    position: fixed;
+    min-width: 100%;
+    height: 100vh;
+    top: -220;
+    background-color: firebrick;
+}
+
+.slider ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider ul li{
+    margin-block: 2.5rem;
+    list-style: none;
+}
+
+.slider ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--color6);
+}
