@@ -20,4 +20,5 @@ body footer{
 
 footer ul{
     margin-top: 5%;
+    list-style: none;
 }

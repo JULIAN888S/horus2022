@@ -31,7 +31,7 @@
     margin-right: 5%;
 }
 
-@media(max-width:500px){
+@media(max-width:600px){
     .main-container{
         height: 80vh;
         display: grid;

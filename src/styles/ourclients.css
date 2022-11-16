@@ -20,3 +20,20 @@
     margin: 0px auto;
     width: auto;
 }
+
+@media(max-width:800px) {
+
+    .OurClients{
+        height: 40vh;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .OurClients img{
+        height: 10vh;
+        background-color: var(--color4);
+        box-shadow: 10px 20px 40px var(--color6);
+    }
+    
+}
